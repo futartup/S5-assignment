@@ -3,16 +3,20 @@ S5 Assignment
 
 
 
-
 ### Trail 2 CNN Architecture
+
+Dataset = MNIST
 
 Padding = 0
 Stride = 1
 Max Pool Stride = 2
 
+Best Test Accuracy = 99.45%
+Best Train Accuracy = 99.50%
+
 | Input | kernel | Output | GRF | Total Parameters | Jout |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 28 * 28 | 3 * 3 * 1 * 10 | 26 * 26 * 10 | 3 | 90 | 1 |
+| 28 * 28 * 1 | 3 * 3 * 1 * 10 | 26 * 26 * 10 | 3 | 90 | 1 |
 | 26 * 26 * 10 | 3 * 3 * 10 * 16 | 24 * 24 * 16 | 5 | 1440 | 1 |
 | Max Pool |  |  | 6 | 0 | 2 |
 | 12 * 12 * 16 | 3 * 3 * 16 * 16 | 10 * 10 * 16 | 10 | 2304 | 2 |
