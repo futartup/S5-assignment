@@ -11,8 +11,10 @@ S5 Assignment
 1. Stride = 1
 1. Max Pool Stride = 2
 
-Best Test Accuracy = 99.45%
-Best Train Accuracy = 99.50%
+1. Best Test Accuracy = 99.45%
+1. Best Train Accuracy = 99.50%
+
+
 
 | Input | kernel | Output | GRF | Total Parameters | Jout |
 | ------ | ------ | ------ | ------ | ------ | ------ |
