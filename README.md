@@ -5,11 +5,11 @@ S5 Assignment
 
 ### Trail 2 CNN Architecture
 
-Dataset = MNIST
+1. Dataset = MNIST
 
-Padding = 0
-Stride = 1
-Max Pool Stride = 2
+1. Padding = 0
+1. Stride = 1
+1. Max Pool Stride = 2
 
 Best Test Accuracy = 99.45%
 Best Train Accuracy = 99.50%
