@@ -4,9 +4,7 @@ S5 Assignment
 
 
 
-### Trail 2 
-
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+### Trail 2 CNN Architecture
 
 Padding = 0
 Stride = 1
@@ -22,3 +20,4 @@ Max Pool Stride = 2
 | 8 * 8 * 16 | 3 * 3 * 16 * 16 | 6 * 6 * 16 | 18 | 2304 | 2 |
 | Max Pool |  |  | 22 | 0 | 4 |
 | 3 * 3 * 16 | 3 * 3 * 16 * 10 | 1 * 1 * 10 | 30 | 1440 | 4 |
+| Total Parameters | 10030 | 4 |
